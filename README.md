@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/142a2979-fb54-44c5-a92a-1266147e4236)# Predictive Analysis for Manufacturing Operations
+# Predictive Analysis for Manufacturing Operations
 
 ## Objective
 To create a RESTful API to predict machine downtime or production defects using a manufacturing dataset.
