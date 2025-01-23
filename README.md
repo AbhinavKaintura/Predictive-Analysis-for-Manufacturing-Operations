@@ -24,7 +24,8 @@ To create a RESTful API to predict machine downtime or production defects using 
 5.   **Test**
       ```bash
       curl -X POST -H "Content-Type: application/json" -d '{"Temperature": 80, "Run_Time": 120}' http://127.0.0.1:5000/predict
-   Here you can provide your own values to 
+   Here you can provide your own values to Temperature and Run_time so as to test for your own values.
+   
 ![image](https://github.com/user-attachments/assets/59536fe9-2c88-4460-aee5-843cbf398e0d)
 
 6.   ## `dataset/synthetic_data.csv`
