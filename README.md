@@ -21,18 +21,19 @@ To create a RESTful API to predict machine downtime or production defects using 
 4.  **Run the Application**
     ```bash
     python app.py
-5.   **Test**
-      ```bash
-      curl -X POST -H "Content-Type: application/json" -d '{"Temperature": 80, "Run_Time": 120}' http://127.0.0.1:5000/predict
-   Here you can provide your own values to Temperature and Run_time so as to test for your own values.
 
-6.   Upload Endpoint (POST /upload)
+5.   Upload Endpoint (POST /upload)
       ```bash
       curl -X POST -F "file=@path/to/your/dataset.csv" http://127.0.0.1:5000/upload
 
-7.   Train Endpoint (POST /train)
+6.   Train Endpoint (POST /train)
      ```bash
      curl -X POST http://127.0.0.1:5000/train
+
+7.   **Test**
+      ```bash
+      curl -X POST -H "Content-Type: application/json" -d '{"Temperature": 80, "Run_Time": 120}' http://127.0.0.1:5000/predict
+   Here you can provide your own values to Temperature and Run_time so as to test for your own values.
 
    
 ![image](https://github.com/user-attachments/assets/59536fe9-2c88-4460-aee5-843cbf398e0d)
