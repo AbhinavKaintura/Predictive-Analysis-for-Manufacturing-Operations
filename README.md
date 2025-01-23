@@ -1,4 +1,4 @@
-# Predictive Analysis for Manufacturing Operations
+![image](https://github.com/user-attachments/assets/142a2979-fb54-44c5-a92a-1266147e4236)# Predictive Analysis for Manufacturing Operations
 
 ## Objective
 To create a RESTful API to predict machine downtime or production defects using a manufacturing dataset.
@@ -35,7 +35,9 @@ To create a RESTful API to predict machine downtime or production defects using 
       curl -X POST -H "Content-Type: application/json" -d '{"Temperature": 80, "Run_Time": 120}' http://127.0.0.1:5000/predict
    Here you can provide your own values to Temperature and Run_time so as to test for your own values.
 
-   
+
+   ![image](https://github.com/user-attachments/assets/07dd573e-aef4-4fc2-a4ab-8777ee8c5c4b)
+
 
 8.   ## `dataset/synthetic_data.csv`
 
