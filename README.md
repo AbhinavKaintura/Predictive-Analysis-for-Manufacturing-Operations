@@ -27,7 +27,7 @@ To create a RESTful API to predict machine downtime or production defects using 
    Here you can provide your own values to 
 ![image](https://github.com/user-attachments/assets/59536fe9-2c88-4460-aee5-843cbf398e0d)
 
-7.   ## `dataset/synthetic_data.csv`
+6.   ## `dataset/synthetic_data.csv`
 
 This is the synthetic dataset you can use for training and testing.
 
